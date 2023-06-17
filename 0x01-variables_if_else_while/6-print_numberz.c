@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - main function
- * Description:printinggg single digits numbers of base 10 starting from 01
- * Return: 0
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int x;
+	int n;
 
-	for (x = 48; x <= 57; x++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(x);
+		putchar(n);
 	}
 	putchar('\n');
-
 	return (0);
 }
