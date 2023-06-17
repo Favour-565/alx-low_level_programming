@@ -1,7 +1,7 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/* more headers goes here */
+/* betty style doc for function main goes here */
 int main(void)
 {
     int n;
