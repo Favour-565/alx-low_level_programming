@@ -1,27 +1,35 @@
 #include <stdio.h>
 /**
- * main - main function
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
-	int j;
+int x, y;
 
-	for (i = 0; i < 10; i++)
-	{
-		for (j = 0; j < 10; j++)
-		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i == 9 && j == 9)
-			{
-				break;
-			}
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	return (0);
+for (x = 48; x <= 57; x++)
+{
+for (y = 48; y <= 57; y++)
+{
+if (x == y || y <= x)
+{
+}
+else
+{
+putchar(x);
+putchar(y);
+if (x == 56 && y == 57)
+{
+}
+else
+{
+putchar(44);
+putchar(' ');
+}
+}
+}
+}
+putchar('\n');
+return (0);
 }
