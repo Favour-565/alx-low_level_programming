@@ -1,17 +1,16 @@
 #include <stdio.h>
+
 /**
- * main - main function
- * Description:print digit number
- * Return: 0
+ * main - prints numbers from 0 to 10
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x;
+	int n;
 
-	for (x = 0; x <= 9; x++)
-	{
-		printf("%d", x);
-	}
-	putchar('\n');
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
 	return (0);
 }
