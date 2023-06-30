@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry point of the program
- * manipulation by modifying the value of the a[2]
- * Return: 0
- */
-
 int main(void)
 {
 int n;
@@ -22,10 +16,8 @@ p = &n;
 * - only one statement
 * - you are not allowed to code anything else than this line of code
 */
-
+*(p + 5) = 98;
 /* ...so that this prints 98\n */
-a[2] = *(p + 5);
-
 printf("a[2] = %d\n", a[2]);
 return (0);
 }
